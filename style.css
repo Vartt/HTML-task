@@ -1,0 +1,56 @@
+body {
+    font-size: 20px;    
+}
+
+
+h1, h3 {
+    font-weight: normal;
+}
+
+
+span.bold {
+    font-weight: bold;
+}
+
+span.italic {
+    font-style: italic;
+}
+
+table {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #aaa;
+    border-collapse: collapse;
+
+}
+
+td {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #aaa;
+    text-align: center;
+}
+
+.first-column {
+    width: 30px;
+} 
+p {
+    font-size: 15px;
+    text-align: center;
+}
+div {
+    text-align: left;
+    width: 500px;
+    /* width: 100%; */
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+/* hr {
+    border: none; /* Убираем границу */
+    background-color: rgb(5, 5, 5); /* Цвет линии */
+    color: rgba(5, 5, 5); /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   } */
