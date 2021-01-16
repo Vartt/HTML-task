@@ -7,8 +7,15 @@ h1, h3 {
     font-weight: normal;
 }
 
+h3 {
+    margin-bottom: 0;
+}
 
-span.bold {
+.modified {
+    margin-bottom: 20px;
+}
+
+.bold {
     font-weight: bold;
 }
 
@@ -17,18 +24,23 @@ span.italic {
 }
 
 table {
-    border-style: solid;
-    border-width: 3px;
-    border-color: #aaa;
     border-collapse: collapse;
-
 }
 
 td {
     border-style: solid;
-    border-width: 3px;
-    border-color: #aaa;
+    border-width: 1px;
+    border-color: rgb(12, 12, 12);
     text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    vertical-align: top;
+}
+
+.width-fix {
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .first-column {
@@ -40,17 +52,30 @@ p {
 }
 div {
     text-align: left;
-    width: 500px;
-    /* width: 100%; */
+    width: 700px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
 }
 
+ol {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: 25px;
+    padding-left: 0;
+    list-style-position: inside;
+    margin-top: 0;
+}
+
+li {
+    text-indent: 30px;
+}
+
 /* hr {
-    border: none; /* Убираем границу */
-    background-color: rgb(5, 5, 5); /* Цвет линии */
-    color: rgba(5, 5, 5); /* Цвет линии для IE6-7 */
-    height: 2px; /* Толщина линии */
+    border: none;
+    background-color: rgb(5, 5, 5);
+    color: rgba(5, 5, 5);
+    height: 2px;
    } */
